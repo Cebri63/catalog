@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const Product = require("../models/product");
-const Department = require("../models/department");
-const Category = require("../models/category");
+const Product = require("../models/Product");
+const Department = require("../models/Department");
+const Category = require("../models/Category");
 
 // PRODUCT ###############################################################
 
