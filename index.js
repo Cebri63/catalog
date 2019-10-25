@@ -10,9 +10,9 @@ mongoose.connect("mongodb://localhost/catalog_v1", {
   useUnifiedTopology: true
 });
 
-require("./models/product");
-require("./models/department");
-require("./models/category");
+require("./models/Product");
+require("./models/Department");
+require("./models/Category");
 
 const departmentRoutes = require("./routes/department");
 const categoryRoutes = require("./routes/category");
